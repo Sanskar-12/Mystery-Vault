@@ -80,7 +80,7 @@ export async function POST(req: Request) {
         verifyCodeExpiry: expiryDate,
         isAcceptingMessage: true,
         messages: [],
-        isVerified: true,
+        isVerified: false,
       });
     }
 
